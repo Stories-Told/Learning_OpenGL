@@ -5,7 +5,7 @@ Three triangles drawn and colored
 /* Vertex shaders and fragment shaders if not using a header file that reads from other files (All fragments run from one
 vertex shader source) */
 
-// Build and compile the first shader
+	// Build and compile the first shader
 	int vertexShaderPurple = glCreateShader(GL_VERTEX_SHADER);
 	glShaderSource(vertexShaderPurple, 1, &vertexShaderSource, NULL);
 	glCompileShader(vertexShaderPurple);
