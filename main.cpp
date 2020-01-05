@@ -116,9 +116,9 @@ int main()
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 
-		// Colors the first triangle based off the uniform
+		// Colors the first triangle
 		redShader.use();
-		// Draw the first triangle (color comes from the above uniform code)
+		// Draw the first triangle
 		glBindVertexArray(VAOs[0]);
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 
